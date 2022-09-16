@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://nlw-server.loca.lt",
+  baseURL: import.meta.env.VITE_API_URL,
 });
