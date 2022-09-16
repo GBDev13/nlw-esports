@@ -4,8 +4,11 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "yarn migrate:deploy && tsc",
     "dev": "tsnd --exit-child src/server.ts",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy",
+    "migrate:status": "prisma migrate status",
     "start": "node build/server.js"
   },
   "keywords": [],
