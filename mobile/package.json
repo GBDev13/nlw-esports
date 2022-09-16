@@ -20,6 +20,7 @@
     "expo-modules-core": "~0.11.5",
     "expo-notifications": "~0.16.1",
     "expo-status-bar": "~1.4.0",
+    "expo-updates": "~0.14.5",
     "phosphor-react-native": "^1.1.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
